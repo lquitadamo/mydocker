@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM debian:stable
 MAINTAINER Luigi Quitadamo
 
 ENV JAVA_DOWNLOAD_BASE_URL http://download.oracle.com/otn-pub/java/jdk
