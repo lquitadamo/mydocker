@@ -1,6 +1,8 @@
 FROM debian:stable
 MAINTAINER Luigi Quitadamo
 
+ENV DEBIAN_FRONTEND noninteractive
+
 ENV JAVA_DOWNLOAD_BASE_URL http://download.oracle.com/otn-pub/java/jdk
 ENV JAVA_FOLDER jdk1.7.0_79
 ENV JAVA_VERSION 7u79
